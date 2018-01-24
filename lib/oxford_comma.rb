@@ -5,7 +5,7 @@
 # end
 
 def oxford_comma(array)
-  array.except.last.each do |element|
+  array.each do |element|
   return array.join(", ") + ", and " + array.last #fix
 end #each
 end #method
