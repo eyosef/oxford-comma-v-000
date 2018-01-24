@@ -7,8 +7,8 @@
 def oxford_comma(array)
   array.except.last.each do |element|
   return array.join(", ") + ", and " + array.last #fix
-  end #
-end
+end #each
+end #method
 
 users.except(myself).each do |user|
   user.some_method
