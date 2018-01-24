@@ -6,7 +6,7 @@
 
 def oxford_comma(array)
   array.except.last.each do |element|
-  return array.join(", ") + ", and " + array.last if array.length > 3 #fix
+  return array.join(", ") + ", and " + array.last #fix
 end
 
 users.except(myself).each do |user|
